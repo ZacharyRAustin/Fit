@@ -13,81 +13,21 @@
 <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="CSS/global.css">
 
-<script type="text/javascript" src="JS/UserSettings.js"></script>
 </head>
 <body>
 <div class="container-fluid">
 	<h1 class="logo">(F)it</h1>
-	<div class="userEdit" id="ue">
-		<form class="form-horizontal">
-			<fieldset>
-
-			<!-- Select Basic -->
-			<div class="form-group">
-			  <label class="col-md-4 control-label" for="gender">Gender</label>
-			  <div class="col-md-4">
-			    <select id="gender" name="gender" class="form-control">
-			      <option value="male">Male</option>
-			      <option value="female">Female</option>
-			    </select>
-			  </div>
-			</div>
-
-			<!-- Text input-->
-			<div class="form-group">
-			  <label class="col-md-4 control-label" for="age">Age</label>  
-			  <div class="col-md-4">
-			  <input id="age" name="age" type="text" placeholder="Age" class="form-control input-md" required="">
-			    
-			  </div>
-			</div>
-
-			<!-- Text input-->
-			<div class="form-group">
-			  <label class="col-md-4 control-label" for="height">Height</label>  
-			  <div class="col-md-4">
-			  <input id="height" name="height" type="text" placeholder="Height" class="form-control input-md" required="">
-			    
-			  </div>
-			</div>
-
-			<!-- Text input-->
-			<div class="form-group">
-			  <label class="col-md-4 control-label" for="weight">Weight</label>  
-			  <div class="col-md-4">
-			  <input id="weight" name="weight" type="text" placeholder="Weight" class="form-control input-md" required="">
-			    
-			  </div>
-			</div>
-
-			<!-- Select Basic -->
-			<div class="form-group">
-			  <label class="col-md-4 control-label" for="fitnessLevel">Fitness Level</label>
-			  <div class="col-md-4">
-			    <select id="fitnessLevel" name="fitnessLevel" class="form-control">
-			      <option value="1">Beginner</option>
-			      <option value="2">Novice</option>
-			      <option value="3">Intermediate</option>
-			      <option value="4">Expert</option>
-			      <option value="5">AB CRUSHER</option>
-			    </select>
-			  </div>
-			</div>
-
-			</fieldset>
-	</form>
-	</div>
 
 	<div class="userSettings" id="us">
-		<p id="genderField">M</p>
-		<p id="ageField">7</p>
-		<p id="heightField">1</p>
-		<p id="weightField">70</p>
-		<p id="fitnessField">AB CRUSHER</p>
+		<p id="genderField"><b>Gender:</b> Male</p>
+		<p id="ageField"><b>Age:</b> 21</p>
+		<p id="heightField"><b>Height:</b> 5'11"</p>
+		<p id="weightField"><b>Weight:</b> 190b</p>
+		<p id="fitnessField"><b>Fitnes Level:</b> Beginner</p>
 	</div>
 
 	<a id="backButton" class="btn btn-primary btn-large btn-sizer-row" href="index.html">Back</a>
-	<a id="editButton" class="btn btn-primary btn-large btn-sizer-row" onclick="handleEdit()">Edit</a>
+	<a id="editButton" class="btn btn-primary btn-large btn-sizer-row" href="EditSettings.html">Edit</a>
 
 </div>
 
