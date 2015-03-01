@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="CSS/fit.css">
+	<link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="CSS/CustomWorkout.css">
+	<link rel="stylesheet" type="text/css" href="CSS/global.css">
+	<script type="text/javascript" src="JS/CustomWorkout.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<h1 class="logo">(F)it</h1>
+		<form class="form-horizontal">
+			<fieldset>
+
+				<!-- Form Name -->
+				<legend>Custom Workout</legend>
+
+				<!-- Select Basic -->
+				<div class="form-group">
+					<label class="col-md-4 control-label" for="time">Time</label>
+					<div class="col-md-4">
+						<select id="time" name="time" class="form-control">
+							<option value="15" selected="selected">15 min</option>
+							<option value="30">30 min</option>
+							<option value="45">45 min</option>
+							<option value="60">60 min</option>
+							<option value="90">90 min</option>
+						</select>
+					</div>
+				</div>
+
+				<!-- Select Multiple -->
+				<div class="form-group">
+					<label class="col-md-4 control-label" for="injury">Injuries</label>
+					<div class="col-md-4">
+						<select id="injury" name="injury" class="form-control" multiple="multiple">
+							<option value="none" selected="selected">None</option>
+							<option value="ankle">Ankle</option>
+							<option value="back">Back</option>
+							<option value="elbow">Elbow</option>
+							<option value="groin">Groin</option>
+							<option value="hamstring">Hamstring</option>
+							<option value="knees">Knees</option>
+							<option value="shoulder">Shoulder</option>
+							<option value="wrist">Wrist</option>
+						</select>
+					</div>
+				</div>
+
+				<!-- Select Multiple -->
+				<div class="form-group">
+					<label class="col-md-4 control-label" for="equipment">Equipment</label>
+					<div class="col-md-4">
+						<select id="equipment" name="equipment" class="form-control" multiple="multiple">
+							<option value="none" selected="selected">None</option>
+							<option value="barbell">Barbell Plates</option>
+							<option value="dumbbells">Dumbbells</option>
+							<option value="exercise">Exercise Machine</option>
+							<option value="medicineball">Medicine Ball</option>
+						</select>
+					</div>
+				</div>
+
+				<!-- Select Basic -->
+				<div class="form-group">
+					<label class="col-md-4 control-label" for="intensity">Intensity</label>
+					<div class="col-md-4">
+						<select id="intensity" name="intensity" class="form-control">
+							<option value="light">Light</option>
+							<option value="moderate" selected="selected">Moderate</option>
+							<option value="vigorous">Vigorous</option>
+							<option value="crusher">(F)it CRUSHER</option>
+						</select>
+					</div>
+				</div>
+
+			</fieldset>
+		</form>
+
+		<div class="row">
+		<a id="backButton" class="btn btn-primary btn-large btn-sizer-row" href="WorkoutOption.html">Back</a>
+		<a id="startButton" class="btn btn-primary btn-large btn-sizer-row" href="#" onclick="start()">Start</a>
+		</div>
+
+	</div>
+
+</body>
+</html>
