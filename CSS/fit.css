@@ -1,7 +1,14 @@
 .logo{
 	font-family: 'Fredoka One', cursive;
-	color: blue;
+	color: #7D1935;
 	text-align: center;
+	font-size: 15vh;
+	margin-bottom: 10%;
+
+}
+
+*{
+	font-family:  Verdana, Geneva, sans-serif;
 }
 
 .userEdit{
