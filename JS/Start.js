@@ -26,3 +26,19 @@ function parseURL(){
 	equip = equip.split("|");
 }
 
+function chooseWorkout(){
+	//Task 1, 30 min workout
+	if(time == "30")
+	{
+
+	}
+	//Task 2 injured Ankle 15 min (nice gifs)
+	else if(injuries.contains("ankle"))
+	{
+
+	}
+	//Task 3 New to exersise 15 min with dumbbell (nice gifs )
+	else{
+
+	}
+}
