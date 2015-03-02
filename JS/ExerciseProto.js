@@ -16,12 +16,11 @@ Exercise.prototype.getDuration = function(){
 	return this.duration;
 }; 
 
-Exercise.prototype.getRandomDuration = function(){
-	this.duration = Math.floor((Math.random() * duration) + 1);
-	return this.duration;
-};
-
 Exercise.prototype.getRandomDuration = function(max){
+	if(max == null)
+	{
+		max = this.duration;
+	}
 	this.duration = Math.floor((Math.random() * max) + 1);
 	return this.duration;
 };
