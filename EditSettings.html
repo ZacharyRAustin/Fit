@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="CSS/fit.css">
+<link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="CSS/global.css">
+<script src="JS/editSettings.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+	<h1 class="logo">(F)it</h1>
+		<form class="form-horizontal">
+			<fieldset>
+
+			<!-- Select Basic -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="gender">Gender</label>
+			  <div class="col-md-4">
+			    <select id="gender" name="gender" class="form-control">
+			      <option value="Male">Male</option>
+			      <option value="Female">Female</option>
+			    </select>
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="age">Age</label>  
+			  <div class="col-md-4">
+			  <input id="age" name="age" type="text" placeholder="Age" class="form-control input-md" required="">
+			    
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="height">Height</label>  
+			  <div class="col-md-4">
+			  <input id="height" name="height" type="text" placeholder="Height" class="form-control input-md" required="">
+			    
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="weight">Weight</label>  
+			  <div class="col-md-4">
+			  <input id="weight" name="weight" type="text" placeholder="Weight" class="form-control input-md" required="">
+			    
+			  </div>
+			</div>
+
+			<!-- Select Basic -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="fitnessLevel">Fitness Level</label>
+			  <div class="col-md-4">
+			    <select id="fitnessLevel" name="fitnessLevel" class="form-control">
+			      <option value="Beginner">Beginner</option>
+			      <option value="Novice">Novice</option>
+			      <option value="Intermediate">Intermediate</option>
+			      <option value="Expert">Expert</option>
+			      <option value="AB CRUSHER">AB CRUSHER</option>
+			    </select>
+			  </div>
+			</div>
+
+			</fieldset>
+	</form>
+	<br />
+
+	<button id="editButton" class="btn btn-primary btn-large btn-sizer" onclick="save()">Save</a>
+
+</div>
+
+</body>
+</html>
