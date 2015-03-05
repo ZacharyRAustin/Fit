@@ -14,14 +14,18 @@
 <link rel="stylesheet" type="text/css" href="CSS/start.css">
 <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="JS/Start.js"></script>
+<script type="text/javascript" src="JS/ExerciseProto.js"></script>
 </head>
-<body onload="parseURL()">
+<body onload="setUpPage()">
 <div class="container-fluid">
 	<h1 class="logo">(F)it</h1>
 	<h3 id="title">Decline seated bicep curls</h3>
-	<p style="text-align:center;"><img id="gif" src="../Images/decline_seated_bicep_curls.gif" width="200" height="200"></p>
+	<p style="text-align:center;"><img id="gif" src="./Images/decline_seated_bicep_curls.gif" width="200" height="200" style="border:solid;"></p>
+	<h3 style="text-align:center;" id="duration"></h3>
+	<br />
+	<br />
 	<a id="endButton" class="btn btn-primary btn-large btn-sizer-row" href="WorkoutOption.html">End</a>
-	<a id="nextButton" class="btn btn-primary btn-large btn-sizer-row" onclick="next()">Skip</a>
+	<a id="nextButton" class="btn btn-primary btn-large btn-sizer-row" onclick="next()">Next</a>
 	
 </div>
 
